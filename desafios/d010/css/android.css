@@ -1,0 +1,165 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+  font-family: "idroid";
+  src: url(font/idroid.otf) format(openType);
+}
+
+body {
+  background-color: #84E1AD;
+  margin: 0;
+}
+
+header{
+ background-image: linear-gradient(#3CD782, #1A5C38);
+ margin: 0;
+ padding: 10px;
+}
+
+header > h1 {
+  color: #ffffff;
+  font-family: 'Bebas Neue';
+  font-size: 2em;
+  text-align: center;
+  padding: auto;
+  margin: 0px;
+}
+
+header > p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: #ffffff;
+  text-align: center;
+}
+
+nav > a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  padding-right: 12px;
+  color: #ffffff;
+}
+
+main {
+  background-color: #ffffff;
+  min-width: 400px;
+  max-width: 800;
+  margin: auto;
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 4px 4px 15px black;
+}
+
+main > section {
+  margin: 10px;
+}
+
+#titulo_principal {
+  font-family: 'idroid';
+  font-size: 2em;
+  padding-left: 10px;
+  margin: 16px;
+  color: #1A5C38;
+}
+
+.titulo_artigo {
+  font-family: 'idroid';
+  font-size: 1.3em;
+  background-image: linear-gradient(to right, #3cd78280, #ffffff 75%);
+  padding-left: 10px;
+  color: #1A5C38;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  text-indent: 20pt;
+  line-height: 2em;
+}
+
+.link {
+  color: #1A5C38;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link::after {
+  content: ' 🔗';
+}
+
+#bug {
+ display: block;
+ width: 200px;
+ margin: auto;
+}
+
+.imagens {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#video {
+  position: relative;
+  background-color: #113d26;
+  padding: 180px 180px 180px 180px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+#video > iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+
+#extra > h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 0.9em;
+  background-color: #2aaa64;
+  color: #ffffff;
+  padding: 10px;
+  margin: -10px -10px 20px -10px;
+  border-radius: 5px 5px 0px 0px;
+
+}
+
+#extra {
+  background-color: #95f0be;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+ul {
+  columns: 2;
+}
+
+strong {
+  color: #113d26;
+  text-shadow: 1px 1px 6px black;
+}
+
+footer {
+  font: lighter 1em Arial;
+  background-color: #113d26;
+  margin: 10px 0px 0px 0px;
+  padding: 5px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.criador {
+  font: bold 1em Arial;
+  color: #ffffff;
+}
