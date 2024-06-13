@@ -1,5 +1,5 @@
--Header-
-Curiosidades de Tecnologia (@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');)
+
+Curiosidades de Tecnologia
 
 Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar
 
@@ -8,7 +8,6 @@ Home
 Notícias
 Curiosidades
 Fale Conosco
--header-
 
 História do Mascote do Android
 
