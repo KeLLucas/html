@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select, datalsit, textarea</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>select, datalist</legend>
+            <p>
+                <label for="iestado">Estado</label>
+                <select name="Estado" id="iestado">
+
+                    <optgroup label="Região Sudeste">
+                        <option value="SP">São Paulo</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="RJ" selected>Rio de Janeiro</option>
+                    </optgroup>
+
+                    <optgroup label="Região Nordeste">
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="MR">Maranhão</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label for="iprof">Profissão</label> 
+                <input type="text" name="prof" id="iprof" list="lstprof">
+                <datalist id="lstprof"> <!-- Bacana demais -->
+                    <option value="Dev">Desenvolvedor</option>
+                    <option value="Cont">Contador</option>
+                    <option value="Jui">Juiz</option>
+                </datalist>
+            </p>
+
+            <p>
+                <label for="imsg">Mensagem</label><br>
+                <textarea name="msg" id="imsg" cols="50" rows="4"></textarea>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
