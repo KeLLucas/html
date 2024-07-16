@@ -1,8 +1,58 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
 
 :root {
     --verdEscuro: #103900;
     --verdClaro: #76b041;
     --roxoEscuro: #893168;
     --roxoClaro: #bca0bc;
+    --fontTotal: "Nanum Gothic"
+}
+
+* {
+    font-family: var(--fontTotal), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: var(--roxoEscuro);
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden; /* Tudo que estiver fora da borda some */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width .3s, height .3s; /*animação de largura e altura */ 
+    transition-timing-function: ease;
+}
+
+div#image {
+    display: block;
+    background: var(--roxoEscuro) url(../images/planta.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+}
+
+div#formulario {
+    display: block;
+    padding: 10px;
 }
